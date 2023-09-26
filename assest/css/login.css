@@ -1,0 +1,21 @@
+@import url(./style.css);
+
+#password {
+    padding: 1.5%;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    margin-top:0.5%;
+}
+
+.agree{
+    margin-left:-17%;
+}
+
+@media all and (min-width:280px) and (max-width:1085px){
+    .agree{
+        margin:0;
+        margin-top:1%;
+    } .pass-cont{
+        width: 100%;
+    }
+}

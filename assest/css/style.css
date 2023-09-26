@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;600&display=swap');
+*{
+    box-sizing: border-box;
+} main > section {
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    margin-top:2%;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+} .photo-container {
+    padding:1.8%;
+    width:100%;
+    border-radius:40px;
+    background: #B0D8DA;
+} .input-container {
+    position: absolute;
+    right:0;
+    top:0;
+    width: 60%;
+    height: 100%;
+    border-radius: 40px;
+    background-color: #fff;
+    padding: 3%;
+} .photo-container > div > h1{
+    font-family:Plus Jakarta Sans;
+    font-size:50px;
+    font-weight:700;
+    margin-top: 3.5%;
+    color:#fff;
+} .photo {
+    width:100%;
+} .photo > img{
+    width: 30%;
+    height:30%;
+    margin-left:10%;
+    transform: rotate(-7.381deg);
+    z-index: 100;
+} .photo-container > div > h2{
+    color:#fff;
+    font-family:Plus Jakarta Sans;
+    font-size:45px;
+    font-weight:400;
+    color:#fff;
+    margin-top:0.5%;
+    margin-bottom:1%;
+} .laungauge {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+} .laungauge > select {
+    color: rgba(0, 0, 0, 0.50);
+font-family: Plus Jakarta Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border:none;
+} .text-input > div > h2{
+color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 26px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top:5%;
+} .text-input > div >h3 {
+color: #ABABAB;
+font-family: Plus Jakarta Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top:0.5%;
+} .text-input {
+    margin-bottom:2%;
+} .input {
+    display: flex;
+    flex-direction: column;
+} .password-input {
+    display: flex;
+    flex-direction:row;
+    width: 100%;
+    justify-content: space-between;
+}.input > input{
+    width:40%;
+    padding:0.5%;
+    border : 1px solid #ABABAB;
+    border-radius:5px;
+} .warning {
+    display: flex;
+    margin-right: auto;;
+} .warning > .warning-box {
+    background-color: #5DC6C9;
+    padding:15px;
+    border-radius:10px;
+} i{
+    color: #5DC6C9;
+    margin-right:-10%;
+} .angle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:5%;
+} .warning-box > p {
+color: #FFF;
+font-family:Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+label {
+margin-top:1%;
+margin-bottom:0.3%;
+color: #ABABAB;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} .pass-cont{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+} #password {
+    width:100%;
+    padding:5px;
+} .agree {
+    display: flex;
+    flex-direction: row-reverse;
+    width:33%;
+    margin-top:0.5%;
+    margin-right: auto;
+} .agree > label {
+color: #ABABAB;
+font-family: Plus Jakarta Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+} button{
+margin-top:3%;
+border:none;
+border-radius: 25px;
+background: #5DC6C9;
+color: #FFF;
+font-family: Plus Jakarta Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding:10px 15px;
+} .responsiv-p{
+    display: none;
+}
+@media all and (min-width:280px) and (max-width:1085px){
+    main > section {
+        display: flex;
+        flex-direction: column;
+        margin-bottom:10%;
+        margin-top:10%;
+    } .input-container {
+        position: relative;
+        width:100%;
+        padding:5% 5%;
+    } .photo-container{
+        display: block;
+    } .input{
+        width:50%;
+    } .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    /* } .responsiv-p {
+        display: block;
+        width: 100%;
+        font-size:14px;
+        font-family: Plus Jakarta Sans;
+        color:#000; */
+    } .warning{
+        display: none;
+    } .agree > label {
+        font-size:14px;
+        width:100%;
+    } .input > input {
+        width:90%;
+    } .agree {
+        width: 100%;
+    }
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Web Site</title>
+    <link rel="stylesheet" href="./assest/css/reset.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+    <script defer src="./assest/js/script.js"></script>
+</head>
+<style>
+    .fail {
+        color:#df0000;
+        font-size:14px;
+        font-family: Arial, Helvetica, sans-serif;
+    } .none {
+        display: none;
+    }
+</style>
+<body>
+    <main>
+        <section>
+            <!-- The left side of the site is the portfolio section. -->
+            <section class="photo-container">
+                <div>
+                    <h1>Eacamp Bank</h1>
+                    <h2>Xoş gəlmisiniz!</h2>
+                </div>
+                <div class="photo">
+                    <img src="./portfolio/Abstraction.png" alt="Abstraction" id="abstraction">
+                </div>
+            </section>
+            <!-- The right part of the site is the registration section. -->
+            <section class="input-container">
+                <div class="laungauge">
+                    <select id="laungauge-list">
+                        <option value="Azerbaijan">Azərbaycan</option>
+                        <option value="english" id="eng">English</option>
+                        <option value="turkish">Türkiye</option>
+                        <option value="russian">Русский</option>
+                    </select>
+                </div>
+                <div class="text-input">
+                    <div>
+                        <h2>Əziz istifadəçi, zəhmət olmasa qeydiyyatdan keçin!</h2>
+                        <h3>Qeydiyyatdan keçdikdən sonra, siz daxil ola bilərsiz!</h3>
+                    </div>
+                </div>
+                <div class="inputs">
+                    <div class="input">
+                        <label for="name">Ad</label>
+                        <input type="text" id="name"/>
+                        <p id="name-fail" class="fail"></p>
+                    </div>
+                    <div class="input">
+                        <label for="surname">Soyad</label>
+                        <input type="text" id="surname"/>
+                        <p id="surname-fail" class="fail"></p>
+                    </div>
+                    <div class="input">
+                        <label for="email">E-mail ünvanınız</label>
+                        <input type="email" id="email"/>
+                        <p id="email-fail" class="fail"></p>
+                    </div>
+                    <div class="input password-input">
+                        <div class="pass-cont">
+                            <label for="password">Şifrə</label>
+                            <input type="password" id="password"/>
+                            <p class="responsiv-p">Şifrə yalnız latın hərfləri olmalıdır və
+                                rəqəmlər</p>
+                            <p id="password-fail" class="fail"></p>
+                        </div>
+                        <div class="warning" id="warning-con">
+                            <div class="angle">
+                                <i class="fa-solid fa-play fa-rotate-180"></i>
+                            </div>
+                            <div class="warning-box">
+                                <p>Şifrə yalnız latın hərfləri olmalıdır və
+                                    rəqəmlər</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label for="password-again">Şifrə təkrar</label>
+                        <input type="password" id="password-again"/>
+                        <p id="password-again-fail" class="fail"></p>
+                    </div>
+                </div>
+                <div class="agree">
+                    <label for="i-agree">Mən, yazılan bütün qaydalarla razıyam.</label>
+                    <input type="checkbox" id="i-agree"/>
+                </div>
+                <div class="btn-con">
+                    <button id="btn">Qeydiyyat</button>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
