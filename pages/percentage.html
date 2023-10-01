@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiz | Eacamp Bank</title>
+    <link rel="stylesheet" href="./../assest/css/reset.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./../assest/css/percentage.css"/>
+    <link rel="icon" href="./../portfolio/logo/image 1.png"/>
+    <script defer src="./../assest/js/percentage.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <section class="nav">
+                <div class="logo-con">
+                    <img src="./../portfolio/logo/image 1.png" alt="Eacamp-logo" class="logo">
+                </div>
+                <div class="special-nav">
+                    <div>
+                        <nav>
+                            <a href="./main.html" class="nav-btn house">
+                                <i class="fa-solid fa-house fa-2xl"></i>
+                            </a>
+                            <a href="#"class="nav-btn wallet">
+                                <i class="fa-solid fa-wallet fa-2xl"></i>
+                            </a>
+                            <a href="#" class="nav-btn bank">
+                                <i class="fa-solid fa-piggy-bank fa-2xl"></i>
+                            </a>
+                            <a href="./loans.html" class="nav-btn building">
+                                <i class="fa-solid fa-building-columns fa-2xl"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+                <div class="exit-con">
+                    <div>
+                        <a href="./../index.html" class="exit">
+                            <i class="fa-solid fa-door-open fa-2xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="inputs-con">
+                <div class="calculation-head">
+                    <h1>Müddətli depozit</h1>
+                    <h3>Puluna dəyər qat! Əmanət hesabı aç və pulunu artır!</h3>
+                </div>
+                <div class="inputs">
+                    <div class="input1">
+                        <div class="input1-1" for="salary-input">
+                            <div class="input1-1-header">
+                                <h6>Məbləğ</h6>
+                            </div>
+                            <div class="input1-1-input">
+                                <input type="number" id="salary-input" class="input-per"/>
+                                <div class="money-type">
+                                    <h4>AZN</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="input1-2">
+                            <div class="input1-2-header">
+                                <h6>Müddət</h6>
+                            </div>
+                            <div class="input1-2-input">
+                                <input type="number" id="month-input" class="input-per"/>
+                                <div class="money-type">
+                                    <h4>ay</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input2">
+                        <div class="input2-1">
+                            <input type="text" placeholder="Ad" class="input-per"/>
+                        </div>
+                        <div class="input2-2">
+                            <input type="text" placeholder="Soyad" class="input-per"/>
+                        </div>
+                    </div>
+                    <div class="input3">
+                        <div class="input3-1">
+                            <input type="text" placeholder="İş yeri" class="job-loans"/>
+                            <input type="number" placeholder="Nömrə" class="phone-number"/>
+                        </div>
+                    </div>
+                    <div class="input-btn">
+                        <div>
+                            <button>Sifariş et</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="calculation-percentage">
+                <div>
+                    <div class="total-payment">
+                        <h2 class="calculator-text">Ümumi məbləğ</h2>
+                        <div class="nums">
+                            <h3 id="totalPaymentNum">0</h3>
+                            <h4>azn</h4>
+                        </div>
+                    </div>
+                    <div class="monthly-interest">
+                        <h2 class="calculator-text">Hər ay hesablanan faiz</h2>
+                        <div class="nums">
+                            <h3 id="monthlyInterestNum">0</h3>
+                            <h4>azn</h4>
+                        </div>
+                    </div>
+                    <div class="annual-interest">
+                        <h2 class="calculator-text">İllik faiz dərəcəsi</h2>
+                        <div class="nums">
+                            <h3 id="annualInterestNum">0</h3>
+                            <h4>%</h4>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+</body>
+</html>

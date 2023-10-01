@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+} main{
+    padding: 0.5%;
+} main > section {
+    display: flex;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius:45px;
+} .logo-con{
+    padding:3%;
+    text-align: center;
+} .nav{
+    border-right: 1px solid #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:2%;
+} .special-nav > div > nav{
+    display: flex;
+    flex-direction: column;
+} .nav-btn{
+    margin-top:71%;
+    color:#000;
+    padding:30% 30% 30% 15%;
+    border-radius:50% ;
+} .nav-btn:hover{
+    background-color: #b8e7fa;
+} .house{
+    background-color: #63d3ff;
+    color:#fff;
+} .exit > i{
+    color:#fff;
+} .exit{
+    background-color: #63d3ff;
+    color:#fff;
+    padding:40% 30% 40% 25%;
+    border-radius:50% ;
+}

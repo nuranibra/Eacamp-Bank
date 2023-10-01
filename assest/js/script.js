@@ -29,7 +29,7 @@ btn.addEventListener('mouseover',function(){
     if(ad.value.length >= 3 && ad.value.length <= 10){
         adText.style.color = "green";
         adText.innerHTML = 'Adınız uyğundur';
-        if(surname.value.length >= 3 && surname.value.length <= 10){
+        if(surname.value.length >= 3 && surname.value.length <= 15){
             surnameText.style.color = "green";
             surnameText.innerHTML = "Soyadınız uyğundur";
             if(email.value.endsWith('.com') && email.value.length >= 10){
@@ -43,9 +43,11 @@ btn.addEventListener('mouseover',function(){
                             passwordAgainText.innerHTML = "Parolunuz düzdür"
                             if(iAgree.checked){
                                 btn.style.cursor = "pointer";
-                                localStorage.setItem('name',ad.value.trim());
-                                localStorage.setItem('password',password.value.trim());
                                 btn.addEventListener('click',function(){
+                                    localStorage.setItem('name',ad.value.trim());
+                                    localStorage.setItem('surname',surname.value.trim());
+                                    localStorage.setItem('email',email.value.trim());
+                                    localStorage.setItem('password',password.value.trim());
                                     window.location.href = './../pages/login.html';
                                 })
                             } else {

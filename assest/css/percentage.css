@@ -1,0 +1,79 @@
+@import url(../../components/nav.css);
+@import url(../css/loans.css);
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+
+.main > section{
+    display: flex;
+} .inputs-con{
+    padding: 1%;
+} .calculation-head > h1{
+    color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} .calculation-head > h3{
+    color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+} .inputs{
+    margin-left:-20%;
+} .calculation-percentage{
+    padding:1%;
+    display: flex;
+    align-items: center;
+} .calculation-percentage > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+    width:100%;
+    margin-left:-5%;
+} .calculator-text{
+    color: #000;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+} .phone-number , .job-loans{
+    width:100%;
+} .input3-1{
+    display: flex;
+    width: 81%;
+    margin-left: auto;
+    margin-right: auto;
+} .nums{
+    display: flex;
+} .nums > h3{
+    color: #5DC6C9;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} .nums > h4{
+    color: #9B9B9B;
+font-family: Plus Jakarta Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} .bank{
+    background-color: #63d3ff;
+    color:#fff;
+} .building {
+    margin-top:71%;
+    color:#000;
+    padding:30% 30% 30% 15%;
+    border-radius:50% ;
+    background-color: #fff;
+}

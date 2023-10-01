@@ -159,7 +159,12 @@ line-height: normal;
 padding:10px 15px;
 } .responsiv-p{
     display: none;
-}
+} #password {
+    padding: 1.5%;
+border: 1px solid #ABABAB;
+border-radius: 5px;
+margin-top:0.5%;
+} 
 @media all and (min-width:280px) and (max-width:1085px){
     main > section {
         display: flex;
@@ -194,5 +199,13 @@ padding:10px 15px;
         width:90%;
     } .agree {
         width: 100%;
+    } #password {
+        width:100%;
+        padding: 1.5%;
+    border: 1px solid #ABABAB;
+    border-radius: 5px;
+    margin-top:0.5%;
+    }  .pass-cont {
+        width:100%;
     }
 }

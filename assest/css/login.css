@@ -1,6 +1,12 @@
 @import url(./style.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    #fail {
+        font-family: Poppins;
+        margin-top:1%;
+        font-size:15px;
+    }
 
-#password {
+#password-log {
     padding: 1.5%;
     border: 1px solid #ABABAB;
     border-radius: 5px;
